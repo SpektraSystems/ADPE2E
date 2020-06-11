@@ -76,11 +76,14 @@ In this section you are going to install Power BI Desktop and Azure Data Studio 
     <br>
     <br> **Azure Data Studio (User Installer)**
     <br>https://docs.microsoft.com/en-us/sql/azure-data-studio/download
-    <br>![](./Media/Lab1-Image05.png)
+    
+     ![](./Media/Lab1-Image05.png)
+    
     <br>
     <br>**Power BI Desktop (64-bit)**
     <br>https://aka.ms/pbiSingleInstaller
-    <br>![](./Media/Lab1-Image06.png)
+    
+      ![](./Media/Lab1-Image06.png)
 
 ## Create Azure Synapse Analytics data warehouse objects
 In this section you will connect to Azure Synapse Analytics to create the database objects used to host and process data.
