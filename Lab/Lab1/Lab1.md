@@ -40,7 +40,7 @@ In this section you are going to establish a Remote Desktop Connection to ADPDes
 -------------|
 **Execute these steps on your host computer**|
 
-**IMPORTANT**: If you are executing the lab in a Spektra Labs environment, use the link provided in the Lab Environment tab to connect to the virtual machine. Once connected you can skip to the next section **Install required software onto ADPDesktop**.
+**IMPORTANT**: If you are executing the lab in a **Spektra Labs environment**, use the link provided in the Lab Environment tab to connect to the virtual machine. Once connected you can skip to the next section **Install required software onto ADPDesktop**.
 
 1.	In the Azure Portal, navigate to the lab resource group and click the **ADPDesktop** virtual machine.
 
