@@ -65,30 +65,27 @@ In this section you are going to install Power BI Desktop and Azure Data Studio 
 -------------|
 **Execute these steps inside the ADPDesktop remote desktop connection**|
 
-1.	Once the RDP file is downloaded, click on it to establish an RDP connection with ADPDesktop
+1. Once the RDP file is downloaded, click on it to establish an RDP connection with ADPDesktop
 
-2.	User the following credentials to authenticate:
-    <br>- **User Name**: ADPAdmin
-    <br>- **Password**: P@ssw0rd123!
-3.	Once logged in, accept the default privacy settings.
+2. User the following credentials to authenticate:
+     * **User Name**: ADPAdmin
+     * **Password**: P@ssw0rd123!
+3. Once logged in, accept the default privacy settings.
 
-4.	Using the browser, download and install the latest version of following software. During the setup, accept all default settings:
-    <br>
-    <br> **Azure Data Studio (User Installer)**
-    <br>https://docs.microsoft.com/en-us/sql/azure-data-studio/download
+4. Using the browser, download and install the latest version of following software. During the setup, accept all default settings:
+
+    * **Azure Data Studio (User Installer)** : ```https://docs.microsoft.com/en-us/sql/azure-data-studio/download```
+	
+        ![](./Media/Lab1-Image05.png)
     
-     ![](./Media/Lab1-Image05.png)
+    * **Power BI Desktop (64-bit)**: ```https://aka.ms/pbiSingleInstaller```
     
-    <br>
-    <br>**Power BI Desktop (64-bit)**
-    <br>https://aka.ms/pbiSingleInstaller
-    
-      ![](./Media/Lab1-Image06.png)
+        ![](./Media/Lab1-Image06.png)
 
 ## Create Azure Synapse Analytics data warehouse objects
 In this section you will connect to Azure Synapse Analytics to create the database objects used to host and process data.
 
-![](./Media/Lab1-Image10.png)
+ ![](./Media/Lab1-Image10.png)
 
 **IMPORTANT**|
 -------------|
@@ -98,29 +95,29 @@ In this section you will connect to Azure Synapse Analytics to create the databa
 
     ![](./Media/Lab1-Image11.png)
 
-2.	On the **Connection Details** panel, enter the following connection details:
+2. On the **Connection Details** panel, enter the following connection details:
     <br> - **Server**: synapsesql-*suffix*.database.windows.net
     <br>- **Authentication Type**: SQL Login
     <br>- **User Name**: ADPAdmin
     <br>- **Password**: P@ssw0rd123!
     <br>- **Database**: SynapseDW
 
-3.	Click **Connect**.
+3. Click **Connect**.
 
     ![](./Media/Lab1-Image08.png)
 
-4.	Right-click the server name and click **New Query**.
+4. Right-click the server name and click **New Query**.
 
     ![](./Media/Lab1-Image12.png)
 
-5.	On the new query window, create a new database schema named [NYC]. Use this SQL Command:
+5. On the new query window, create a new database schema named [NYC]. Use this SQL Command:
 
 ```sql
 create schema [NYC]
 go
 ```
 
-6.	Create a new round robin distributed table named NYC.NYPD_MotorVehicleCollisions, see column definitions on the SQL Command:
+6. Create a new round robin distributed table named NYC.NYPD_MotorVehicleCollisions, see column definitions on the SQL Command:
 
 ```sql
 create table [NYC].[NYPD_MotorVehicleCollisions](
