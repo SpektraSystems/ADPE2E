@@ -569,10 +569,12 @@ In this section you will create an Azure Data Factory pipeline to copy New York 
 28.	You should be able to see the **Status** of your pipeline execution on the right-hand side panel.
 
     ![](./Media/Lab4-Image60.png)
+    
 
 29.	Click the **View Activity Runs** button for detailed information about each activity execution in the pipeline. The whole execution should last between 7-8 minutes.
 
     ![](./Media/Lab4-Image61.png)
+    
     
     >**Note**: If Execution of the pipeline fails, from azure portal go to your Synapsedatalake storage account and change the access of **nycimage** container to Blob. Now go    back to the data factory and rerun the pipeline.
     
