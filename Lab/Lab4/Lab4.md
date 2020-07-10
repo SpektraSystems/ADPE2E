@@ -574,7 +574,7 @@ In this section you will create an Azure Data Factory pipeline to copy New York 
 
     ![](./Media/Lab4-Image61.png)
     
-    >**Note**: If Execution of the pipeline fails, from azure portal go to your Synapsedatalake storage account and change the access of **nycimage** container to Blob.Now go    back to data factory and rerun the pipeline.
+    >**Note**: If Execution of the pipeline fails, from azure portal go to your Synapsedatalake storage account and change the access of **nycimage** container to Blob. Now go    back to the data factory and rerun the pipeline.
     
     <br> <img src="Media/updateimg01.jpg"/><br/>
     
